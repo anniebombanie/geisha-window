@@ -1,16 +1,3 @@
-html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-/* --- Styles --- */
 body {
   margin: 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#0c1421), to(#04060b));
@@ -26,10 +13,10 @@ body {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
-  position: relative;
 }
 
 svg {
-  width: 60%;
-  max-height: 50%;
+  max-width: 75vw;
+  max-height: 80vh;
+  padding-bottom: 2%;
 }

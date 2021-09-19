@@ -1,27 +1,15 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-/* --- Styles --- */
 body {
   margin: 0;
-  // background: #191919;
   background-image: linear-gradient(#0c1421, #04060b);
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  position: relative;
 }
 
 svg {
-  width: 60%;
-  max-height: 50%;
+  max-width: 75vw;
+  max-height: 80vh;
+  padding-bottom: 2%;
 }
