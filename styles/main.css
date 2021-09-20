@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0c1421), to(#04060b));
-  background-image: linear-gradient(#0c1421, #04060b);
+  background: black;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
